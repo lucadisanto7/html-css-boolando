@@ -60,7 +60,7 @@ font-weight: 600;
 }
 .label-container{
     position: relative;
-    bottom: 60px;
+    bottom: 15%;
 }
 .label{
     padding: 5px 10px;
