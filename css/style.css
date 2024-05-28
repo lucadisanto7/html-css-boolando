@@ -43,7 +43,7 @@ font-weight: 600;
 }
 .col-33{
     width: calc(100% / 3 - 20px);
-    margin: 30px 10px 0px 10px;
+    margin: 30px 10px 30px 10px;
 }
 .web-image{
     width: 100%; 
@@ -58,7 +58,7 @@ font-weight: 600;
 .bg-white{
     background-color: white;
 }
-.label-container{
+.position-container{
     position: relative;
     bottom: 95px;
 }
@@ -72,4 +72,17 @@ font-weight: 600;
 }
 .green{
     background-color: green;
+}
+.undertext{
+    position: absolute;
+    top: 60px;
+}   
+.red-text{
+    color: red;
+}
+.lined-text{
+    text-decoration: line-through;
+}
+.fontw-600{
+    font-weight: 600;
 }
