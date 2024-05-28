@@ -58,6 +58,10 @@ font-weight: 600;
     font-size: 30px;
     padding: 3px 11px;
 }
+.hearth:hover{
+    color: red;
+    cursor: pointer;
+}
 .bg-white{
     background-color: white;
 }
