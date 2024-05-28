@@ -48,6 +48,16 @@ font-weight: 600;
 .web-image{
     width: 100%; 
 }
+.hearth{
+    position: relative;
+    bottom: 90%;
+    left: 90%;
+    font-size: 30px;
+    padding: 3px 11px;
+}
+.bg-white{
+    background-color: white;
+}
 .label-container{
     position: relative;
     bottom: 60px;
