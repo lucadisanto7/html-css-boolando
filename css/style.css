@@ -43,15 +43,15 @@ font-weight: 600;
 }
 .col-33{
     width: calc(100% / 3 - 20px);
-    margin: 30px 10px 20px 10px;
+    margin: 30px 10px 0px 10px;
 }
 .web-image{
     width: 100%; 
 }
 .hearth{
     position: relative;
-    bottom: 90%;
-    left: 90%;
+    bottom: 545px;
+    left: 340px;
     font-size: 30px;
     padding: 3px 11px;
 }
@@ -60,7 +60,7 @@ font-weight: 600;
 }
 .label-container{
     position: relative;
-    bottom: 15%;
+    bottom: 95px;
 }
 .label{
     padding: 5px 10px;
