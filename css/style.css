@@ -48,3 +48,18 @@ font-weight: 600;
 .web-image{
     width: 100%; 
 }
+.label-container{
+    position: relative;
+    bottom: 60px;
+}
+.label{
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
