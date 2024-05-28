@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Arial', sans-serif;
+}
+header{
+    background-color: rgb(255, 102, 0);
+}
+.header-container{
+    max-width: 1200px;
+}
+.margin-zero{
+    margin: 0 auto;
+}
+#boolean-logo{
+    width: 25%;
+}
+.white-text{
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-col20{
+    width: 20%;
+    align-content: center;
+}
+.content{
+font-weight: 600;
+}
+.head-col60{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    font-size: 30px;
+    text-align: right;
+}
