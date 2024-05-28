@@ -9,7 +9,7 @@ body{
 header{
     background-color: rgb(255, 102, 0);
 }
-.header-container{
+.container{
     max-width: 1200px;
 }
 .margin-zero{
@@ -40,4 +40,11 @@ font-weight: 600;
 .icons{
     font-size: 30px;
     text-align: right;
+}
+.col-33{
+    width: calc(100% / 3 - 20px);
+    margin: 30px 10px 20px 10px;
+}
+.web-image{
+    width: 100%; 
 }
