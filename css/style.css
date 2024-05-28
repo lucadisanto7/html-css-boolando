@@ -54,6 +54,7 @@ font-weight: 600;
 }
 .web-image{
     width: 100%; 
+    display: block;
 }
 .hearth{
     position: relative;
@@ -114,4 +115,14 @@ footer{
     display: flex;
     justify-content: flex-end;  
     gap: 18px;
+}
+.hover{
+    display: none;
+    width: 100%;
+}
+.col-33:hover .web-image{
+    display: none;
+}
+.col-33:hover .hover-1{
+    display: block;
 }
