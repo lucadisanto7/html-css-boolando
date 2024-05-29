@@ -8,7 +8,10 @@ body{
 }
 header{
     background-color: rgb(255, 102, 0);
+    position: fixed;
+    width: 100%;
     padding: 15px 0px;
+    z-index: 1;
 }
 a{
     text-decoration: none;
@@ -50,7 +53,7 @@ font-weight: 600;
 }
 .col-33{
     width: calc(100% / 3 - 20px);
-    margin: 30px 10px 30px 10px;
+    margin: 100px 10px 30px 10px;
 }
 .web-image{
     width: 100%; 
