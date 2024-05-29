@@ -56,10 +56,13 @@ a{
     width: 100%; 
     display: block;
 }
-.hearth{
+.images{
     position: relative;
-    bottom: 535px;
-    left: 340px;
+}
+.hearth{
+    position: absolute;
+    top: 5px;
+    right: 0;
     font-size: 30px;
     padding: 3px 11px;
 }
@@ -72,7 +75,13 @@ a{
 }
 .position-container{
     position: relative;
-    bottom: 95px;
+    margin: 10px;
+}
+.label-position{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
 }
 .label{
     padding: 5px 10px;
@@ -81,13 +90,13 @@ a{
 }
 .red{
     background-color: red;
+    margin-right: 5px;
 }
 .green{
     background-color: green;
 }
 .undertext{
-    position: absolute;
-    top: 60px;
+    
 }   
 .red-text{
     color: red;
